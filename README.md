@@ -17,5 +17,5 @@ is saved in the object called "summary" and has been saved as a txt file called
     
 To load the "tidy_data.txt" file use the read.table command with header = TRUE.
 
-The codebook that explains what the column titles mean from the "tidy_data.txt"
-dataset.
+The file "codebook.md" that explains what the column titles mean from the 
+"tidy_data.txt" dataset.
