@@ -19,3 +19,19 @@ To load the "tidy_data.txt" file use the read.table command with header = TRUE.
 
 The file "codebook.md" that explains what the column titles mean from the 
 "tidy_data.txt" dataset.
+
+#The workflow to generate the tidy dataset was as follows:
+
+Load the various train and test datasets into a dataframe.
+
+Label the various columns with a more descriptive name.
+
+Merge the datasets into a dataframe with the train and test assigned with the 
+label "type".
+
+Select the mean and standard variation variable columns.
+
+Replace the numerical activity with a more descriptive activity.
+
+Create a new dataframe with a summary of averages according each "subject", 
+"activity" and "type".
