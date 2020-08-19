@@ -1,4 +1,4 @@
-Codebook
+# Codebook
 
 The dataset for "tidy_data.txt" contains 180 observations and 69 variables.
 
@@ -14,3 +14,19 @@ which is labeled as "train" or the testing exercise labeled as "test".
 
 The next 60 columns represents the averages of the various measurements on the 
 mean and standard deviation for each measurement.
+
+# The workflow to generate the tidy dataset was as follows:
+
+Load the various train and test datasets into a dataframe.
+
+Label the various columns with a more descriptive name.
+
+Merge the datasets into a dataframe with the train and test assigned with the 
+label "type".
+
+Select the mean and standard variation variable columns.
+
+Replace the numerical activity with a more descriptive activity.
+
+Create a new dataframe with a summary of averages according each "subject", 
+"activity" and "type".
